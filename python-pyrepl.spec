@@ -4,7 +4,7 @@
 
 Name:		python-pyrepl
 Version:	0.9.0
-Release:	2
+Release:	3
 Summary:	A library for building flexible command line interfaces
 URL:		https://pypi.org/project/pyrepl/
 License:	MIT
