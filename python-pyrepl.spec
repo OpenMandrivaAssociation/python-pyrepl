@@ -3,8 +3,8 @@
 %bcond_with test
 
 Name:		python-pyrepl
-Version:	0.9.0
-Release:	3
+Version:	0.11.4
+Release:	1
 Summary:	A library for building flexible command line interfaces
 URL:		https://pypi.org/project/pyrepl/
 License:	MIT
@@ -25,7 +25,7 @@ BuildRequires:	python%{pyver}dist(pexpect)
 %description
 A library for building flexible command line interfaces.
 
-%autosetup -p1 -n %{module}-%{version}
+%autosetup -p1 -n pyrepl-0.11.4
 
 %build
 %py_build
